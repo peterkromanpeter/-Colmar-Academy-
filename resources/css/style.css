@@ -55,8 +55,33 @@ html {
 }
 
 
-
 /* Banner section */
+.main-banner {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.banner-image {
+  width: 60%;
+  margin: 32px 24px 32px 24px;
+}
+
+#banner-image {
+  width:100%;
+}
+
+.learn-now {
+  width: 40%;
+  padding-right: 100px;
+}
+
+#headline, #some-text {
+text-align: center;
+word-wrap: break-word;
+color: #666666;
+}
 
 /* Start learning section */
 
