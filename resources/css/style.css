@@ -238,6 +238,7 @@ hr {
 
 .guest {
   display: flex;
+  background-color: lightgrey
 }
 
 #guest-image {
@@ -261,6 +262,116 @@ hr {
 
 /* Start learning section */
 
+.main-learning {
+  margin: 32px 0px 32px 0px;
+  background-color: lightgrey;
+}
+
+#start-learning {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  color: #4d4d4d;
+  padding-top: 32px;
+}
+
+.courses {
+  display: inline-flex;
+  width: auto;
+  margin: 0px 72px 32px 72px;
+}
+
+ .courses2 {
+   display: inline-flex;
+   width: auto;
+   margin: 0px 72px 0px 72px;
+ }
+
+.course {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  background: white;
+}
+
+#software-design, #computer {
+  margin-right: 32px;
+}
+
+#software-image {
+  width: 100%;
+  height: auto;
+}
+
+#software-design {
+  background: white;
+}
+
+#software-engineering {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4d4d4d;
+  margin-bottom: 8px;
+  padding-left: 16px;
+}
+
+#swe-subhead, #swe-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 8px;
+  padding-left: 16px;
+}
+
+#computer-image {
+  width: 100%;
+  height: auto;
+}
+
+#computer {
+  background: white;
+  padding: 0;
+}
+
+#computer-art {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4d4d4d;
+  margin-bottom: 8px;
+  padding-left: 16px;
+}
+
+#comp-subhead, #comp-description {
+  font-size: 0.9rem;
+  color: #666;
+  padding-bottom: 8px;
+  padding-left: 16px;
+}
+
+#design-image {
+  width: 100%;
+  height: auto;
+}
+
+#ui-design {
+  background: white;
+  padding: 0;
+}
+
+
+#design {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4d4d4d;
+  margin-bottom: 8px;
+  padding-left: 16px;
+}
+
+#design-subhead, #design-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 8px;
+  padding-left: 16px;
+}
 /* Thesis exhibition section */
 
 /* Footer section */
