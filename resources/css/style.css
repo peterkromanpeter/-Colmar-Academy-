@@ -510,3 +510,19 @@ align-items: flex-start;
 
 
 /* Footer section */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0px 0px 24px;
+}
+
+#footer-left {
+  color: #4d4d4d;
+  font-size: 0.7rem;
+}
+
+#footer-right {
+  color: #4d4d4d;
+  font-size: 0.7rem;
+}
