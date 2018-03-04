@@ -73,15 +73,89 @@ html {
 }
 
 .learn-now {
+  display: flex;
+  flex-direction: column;
   width: 40%;
   padding-right: 100px;
 }
 
 #headline, #some-text {
-text-align: center;
 word-wrap: break-word;
-color: #666666;
+color: #4d4d4d;
+width: 80%;
 }
+
+#headline {
+  font-size: 2.2rem;
+}
+
+#some-text {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+#start-here {
+  width: 60%;
+  background: #4d4d4d;
+  color: white;
+  margin: 24px 24px 0px 0px;
+  padding: 8px 0px 8px 0px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+#start-here a:link, #start-here a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* Start praticing section */
+
+.main-practicing {
+  display: inline-flex;
+  width: 100%;
+}
+
+.keep-practicing {
+  width: 60%;
+  margin: 32px 24px 32px 24px;
+}
+
+#praticing-image {
+  width: 100%;
+}
+
+.praticing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#curabitur-headline {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+#practicing-text {
+  font-size: 0.9rem;
+  color: #b3b3b3;
+}
+
+#emanuel {
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #b3b3b3;
+  margin-bottom: 32px;
+}
+
+.about {
+  width: 40%;
+  padding-right: 100px;
+  background-color: red;
+}
+
 
 /* Start learning section */
 
