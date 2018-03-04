@@ -374,4 +374,139 @@ hr {
 }
 /* Thesis exhibition section */
 
+.main-thesis {
+  display: flex;
+  margin: 32px 0px 32px 0px;
+}
+
+#thesis-exhibit {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  color: #4d4d4d;
+
+}
+
+.main-thesis-content {
+  display: flex;
+  width: 100%;
+}
+
+.thesis-content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0px 24px 24px 24px;
+}
+
+#video-urban {
+  width: 100%;
+}
+
+#reimagine {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4d4d4d;
+  margin-bottom: 8px;
+  padding-left: 24px;
+}
+
+#reimagine-text {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 32px;
+  padding-left: 24px;
+}
+
+.showcases {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+
+.fisma {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background-color: lightgrey
+}
+
+.fisma-image {
+  width: 40%;
+}
+
+#fisma-image {
+  width: 80%;
+  margin: 16px;
+}
+
+.fisma-text {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+#fisma-text {
+  width: 100%;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4d4d4d;
+  margin-bottom: 8px;
+}
+
+#fisma-note {
+  width: 100%;
+  text-align: left;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+
+.nowandthen {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.research-image {
+  width: 40%;
+}
+
+#research-image {
+  width: 80%;
+  padding: 16px;
+}
+
+.research-text {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#research-text {
+  width: 100%;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4d4d4d;
+  margin-bottom: 8px;
+}
+
+#research-note {
+  width: 100%;
+  text-align: left;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+
 /* Footer section */
