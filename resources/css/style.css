@@ -746,3 +746,16 @@ align-items: flex-start;
   color: #4d4d4d;
   font-size: 0.7rem;
 }
+
+/* Footer mobile section */
+@media only screen and (max-width: 480px) {
+
+  #footer-right {
+    display: none;
+  }
+
+  .footer {
+    justify-content: flex-start;
+    margin: 16px 0px 0px 16px;
+  }
+}
