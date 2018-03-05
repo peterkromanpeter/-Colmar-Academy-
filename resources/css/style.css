@@ -523,6 +523,10 @@ hr {
 }
 
 /* Start learning mobile section */
+.courses-mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 480px) {
   .courses, .courses2 {
     display: none;
@@ -701,6 +705,29 @@ align-items: flex-start;
   margin-bottom: 8px;
 }
 
+/* Thesis exhibit mobile section */
+.main-thesis-mobile {
+  display:none;
+}
+
+@media only screen and (max-width: 480px) {
+  .main-thesis {
+    display: none;
+  }
+
+  #thesis-exhibit {
+    margin: 32px 0px 16px 0px;
+  }
+  .main-thesis-mobile {
+    display: block;
+
+  }
+  .urban-video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+  }
+}
 
 /* Footer section */
 
