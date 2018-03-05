@@ -430,12 +430,6 @@ hr {
   margin: 0px 72px 0px 72px;
 }
 
- .courses2 {
-   display: inline-flex;
-   width: auto;
-   margin: 0px 72px 0px 72px;
- }
-
 .course {
   display: flex;
   flex-direction: column;
@@ -521,6 +515,92 @@ hr {
   margin-bottom: 8px;
   padding-left: 16px;
 }
+
+.courses2 {
+  display: inline-flex;
+  width: auto;
+  margin: 0px 72px 0px 72px;
+}
+
+#data, #business {
+  margin-right: 32px;
+}
+
+#data-image {
+  width: 100%;
+  height: auto;
+}
+
+#data {
+  background: white;
+}
+
+#data-engineering {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4d4d4d;
+  margin-bottom: 8px;
+  padding-left: 16px;
+}
+
+#data-subhead, #data-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 8px;
+  padding-left: 16px;
+}
+
+#business-image {
+  width: 100%;
+  height: auto;
+}
+
+#business {
+  background: white;
+  padding: 0;
+}
+
+#business-top {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4d4d4d;
+  margin-bottom: 8px;
+  padding-left: 16px;
+}
+
+#busi-subhead, #busi-description {
+  font-size: 0.9rem;
+  color: #666;
+  padding-bottom: 8px;
+  padding-left: 16px;
+}
+
+#analytics-image {
+  width: 100%;
+  height: auto;
+}
+
+#analytics {
+  background: white;
+  padding: 0;
+}
+
+
+#analytics-top {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4d4d4d;
+  margin-bottom: 8px;
+  padding-left: 16px;
+}
+
+#ana-subhead, #ana-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 8px;
+  padding-left: 16px;
+}
+
 
 /* Start learning mobile section */
 .courses-mobile {
