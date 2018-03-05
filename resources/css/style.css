@@ -73,6 +73,9 @@ html {
     width: 100%;
   }
 
+  #logo {
+    color: black;
+  }
 }
 
 /* Banner section */

@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Colmar Academy</title>
+    <link rel="icon" type="image/x-icon" href="./resources/images/ic-logo.ico">
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <meta name="keywords" content="Campus, Learning, Courses, IT Engineering, Web, Software Development, Business">
 
     <meta name="description" content="Learn something new every day">
@@ -16,28 +18,31 @@
   <body>
 
     <!-- Header section -->
-    <div class="header-main">
+    <header class="header-main">
       <div class="header-sub">
         <img id="logo" src="./resources/images/ic-logo.svg">
         <p id="colmar">COLMAR</p>
         <p id="academy">ACADEMY</p>
       </div>
-      <div class="header-nav">
+      <nav class="header-nav">
         <ul>
           <li id="first"><a href="#">On campus</a></li>
           <li id="second"><a href="#">For companies</a></li>
           <li id="third"><a href="#">On line</a></li>
           <li id="fourth"><a href="#">Sign in</a></li>
         </ul>
-      </div>
-    </div>
+      </nav>
+    </header>
         <!-- Header mobile -->
-        <div class="header-mobile">
+        <header class="header-mobile">
           <img id="logo" src="./resources/images/ic-logo.svg">
-          <a href="#"><img id="logo" src="./resources/images/ic-on-campus.svg"> </a>
-          <a href="#"><img id="logo" src="./resources/images/ic-online.svg"> </a>
-          <a href="#"><img id="logo" src="./resources/images/ic-login.svg"> </a>
-        </div>
+          <a href="#"><i id="logo" class="fas fa-building fa-lg" title="On Campus"></i> </a>
+          <!-- <a href="#"><img id="logo" src="./resources/images/ic-on-campus.svg"> </a> -->
+          <a href="#"><i id="logo" class="fas fa-tv fa-lg"title="On inline-flex"></i> </a>
+          <!--  <a href="#"><img id="logo" src="./resources/images/ic-online.svg"> </a> -->
+            <a href="#"><i id="logo" class="fas fa-user fa-lg" title="Sign in"></i> </a>
+          <!-- <a href="#"><img id="logo" src="./resources/images/ic-login.svg"> </a> -->
+        </header>
 
     <!-- Banner section -->
     <div class="main-banner">
@@ -47,9 +52,9 @@
       </div>
 
       <div class="learn-now">
-        <h2 id="headline">Learn something new every day</h2>
-        <p id="some-text"><strong>Lorem ipsum dolor sit amet, consectetur adipishing elit.</strong></p>
-        <button id="start-here" type="button"><a href="https://codeacademy.com">Start here</a></button>
+        <h2 id="headline" role="presentation" >Learn something new every day</h2>
+        <p id="some-text" aria-label="description "><strong>Lorem ipsum dolor sit amet, consectetur adipishing elit.</strong></p>
+        <button id="start-here" type="button" alt="start button"><a href="https://codeacademy.com">Start here</a></button>
       </div>
 
     </div>
@@ -296,10 +301,10 @@
 
     <!-- Footer section -->
 
-    <div class="footer">
+    <footer class="footer">
       <p id="footer-left">&copy; 2016 Colmar Academy. All rights reserved</p>
       <p id="footer-right">Terms Privacy</p>
-    </div>
+    </footer>
 
   </body>
 </html>
