@@ -147,7 +147,7 @@ width: 80%;
     width: 100%;
     align-items: center;
     justify-content: center;
-    padding: 32px 0px 32px 16px;
+    padding: 0px 0px 0px 16px;
 
   }
 
@@ -156,15 +156,22 @@ width: 80%;
     word-wrap: normal;
     text-align: left;
     color: #4d4d4d;
+    margin: 32px 0px 32px 0px;
+    padding: 0px;
   }
 
   #some-text {
     font-size: 1rem;
+    padding: 0;
+    margin: 0;
   }
 
   #start-here {
     width: 90%;
     background-color: #999;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    padding-right: 16px;
   }
 }
 
@@ -317,6 +324,91 @@ hr {
   font-size: 0.9rem;
   color: #666;
   margin-bottom: 8px;
+}
+
+/* Start praticing mobile section */
+.mobile-practicing {
+  display: none;
+}
+@media only screen and (max-width: 480px) {
+.main-practicing {
+  display: none;
+}
+.mobile-practicing {
+  display: flex;
+  flex-direction: column;
+  width: 100%:
+  align-items: center;
+}
+
+.orientation-mobile {
+  margin: 16px 16px 64px 16px;
+}
+
+.info-mobile {
+  margin: 0px 0px 0px 16px;
+  line-height: 1;
+}
+
+#orientation-image-mobile {
+  width: 100%;
+}
+
+#orientation-date {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+#dates {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+.readmore {
+  font-size: 0.75rem;
+}
+
+.campus-mobile {
+  margin: 16px 16px 64px 16px;
+}
+
+#campus-image-mobile {
+  width: 100%;
+}
+
+#our-campus {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+#find-campus {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+
+.guest-mobile {
+  margin: 16px 16px 64px 16px;
+}
+
+#guest-image-mobile {
+  width: 100%;
+}
+
+#guest-lecture {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+#keynote {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+
 }
 
 /* Start learning section */
