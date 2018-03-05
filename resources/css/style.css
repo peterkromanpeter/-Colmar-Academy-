@@ -342,7 +342,7 @@ hr {
 }
 
 .orientation-mobile {
-  margin: 16px 16px 64px 16px;
+  margin: 16px 16px 16px 16px;
 }
 
 .info-mobile {
@@ -370,7 +370,7 @@ hr {
 }
 
 .campus-mobile {
-  margin: 16px 16px 64px 16px;
+  margin: 16px 16px 16px 16px;
 }
 
 #campus-image-mobile {
@@ -407,8 +407,6 @@ hr {
   font-size: 0.85rem;
   color: #999;
 }
-
-
 }
 
 /* Start learning section */
@@ -523,6 +521,50 @@ hr {
   margin-bottom: 8px;
   padding-left: 16px;
 }
+
+/* Start learning mobile section */
+@media only screen and (max-width: 480px) {
+  .courses, .courses2 {
+    display: none;
+  }
+
+  .courses-mobile {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #start-learning {
+    margin-bottom: 16px;
+    padding: 0;
+  }
+
+  .main-learning {
+    background: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .course-mobile {
+    width: 90%;
+    height: auto;
+    background-color: #e6e6e6;
+    margin-bottom: 8px;
+    padding: 0;
+
+  }
+
+  .course-mobile h4 {
+    padding: 0px 0px 0px 16px;
+    margin-right: 16px;
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: 500;
+  }
+
+}
+
 /* Thesis exhibition section */
 
 .main-thesis {
