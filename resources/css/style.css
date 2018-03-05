@@ -129,6 +129,45 @@ width: 80%;
   text-decoration: none;
 }
 
+/* Banner mobile section */
+
+@media only screen and ( max-width: 480px) {
+  .main-banner {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .banner-image {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .learn-now {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0px 32px 16px;
+
+  }
+
+  #headline {
+    font-size: 1.75rem;
+    word-wrap: normal;
+    text-align: left;
+    color: #4d4d4d;
+  }
+
+  #some-text {
+    font-size: 1rem;
+  }
+
+  #start-here {
+    width: 90%;
+    background-color: #999;
+  }
+}
+
 /* Start praticing section */
 
 .main-practicing {
